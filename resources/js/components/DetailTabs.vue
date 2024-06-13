@@ -76,7 +76,7 @@
                 />
               </KeepAlive>
             </div>
-            <div v-if="getAllRelatableFields(tab).length">
+            <div v-if="getAllRelatableFields(tab).length && tab.init">
               <KeepAlive
                 v-for="(field, index) in getAllRelatableFields(tab)"
                 :key="index"
