@@ -17,7 +17,7 @@
           <div class="block">
             <nav
               aria-label="Tabs"
-              class="isolate flex divide-x divide-gray-200 dark:divide-gray-700 rounded-lg shadow overflow-hidden overflow-scroll nova-tabs"
+              class="isolate flex divide-x divide-gray-200 dark:divide-gray-700 rounded-lg shadow overflow-hidden overflow-x-auto nova-tabs"
             >
               <a
                 v-for="(tab, key) in getSortedTabs(tabs)"
